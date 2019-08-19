@@ -15,6 +15,7 @@ if d>0:
 else: 
     if: d==0: 
         x=(-b)/m
+        print("el resultado es", x)
     else:
         print("no existe solucion en los numeros reales")
         
